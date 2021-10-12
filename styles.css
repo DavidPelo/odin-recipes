@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c1c1c1;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+}
+
+.ingredients {
+    margin: 20px auto;
+    text-align: left;
+}
+
+.ingredients-container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.ingredients-list {
+    margin: 0 auto;
+}
+
+.ingredients-list > a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.instruction-item {
+    text-align: left;
+}
+
+.pizza-pic {
+    width: 100%;
+}
+
+.strike {
+    text-decoration: line-through;
+}
